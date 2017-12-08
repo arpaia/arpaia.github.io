@@ -32,8 +32,8 @@ ul {
 
 .insta-container {
 	position: fixed;
-	bottom: 0;
-	left: 0;
+	bottom: 10px;
+	left: 10px;
 	padding: 16px;
 	border: 1px solid black;
 	width: 20%;
@@ -44,4 +44,21 @@ ul {
 
 .insta-header a {
 	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+.capp-header {
+	font-size: 32px;
+}
+.insta-header {
+	font-size: 40px;
+}
+.insta-container {
+	width: 80%;
+}
+
+li {
+	margin-bottom: 12px;
+}
 }
